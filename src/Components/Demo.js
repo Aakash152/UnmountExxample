@@ -17,7 +17,7 @@ const Demo = props => {
 
   return (
     <div>
-      <Button variant="primary" onClick={() => setShow(!show)}>
+      <Button variant="primary" onClick={() => setShow(true)}>
         Button1
       </Button>{" "}
       {show && data.map(person => <p key={person.id}> {person.title}</p>)}
